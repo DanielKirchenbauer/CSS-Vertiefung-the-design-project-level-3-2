@@ -37,7 +37,6 @@ body {
 
 h3 {
     font-size: 24px;
-    margin-top: ;
     margin-left: 20px;
     margin-right: auto;
 }
@@ -55,6 +54,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    font-size: 38px;
+}
+
 header article div:nth-of-type(2) p {
     margin-left: 144px;
 }
@@ -70,4 +73,52 @@ header article div:nth-of-type(3) {
 }
 .pictureGallery img {
     width: 100%;
+    margin-bottom: 120px;
 }
+
+.articleLightbump {
+    margin-left: 155px;
+    display: flex;
+}
+.headlineLightbump h2:nth-of-type(1) {
+    display: inline-block;
+    justify-content: space-between;
+    width:255px;
+    font-size: 38px;
+}
+
+.headlineLightbump h2:nth-of-type(1) img {
+    width: 60px;
+    height: 60px;
+}
+
+main section:nth-of-type(2) article:nth-last-of-type(1) div:nth-child(2) {
+    margin-left: 150px;
+    display: flex;
+    text-align: left;
+    margin-right:300px;
+    margin-bottom: 108px;
+}
+
+main section:nth-of-type(2) article:nth-last-of-type(1) div:nth-child(2) p {
+    font-size: 18px;
+}
+
+.fourIcons h2 {
+    margin-left: 216px;
+}
+
+article .iconAndHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 155px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+
